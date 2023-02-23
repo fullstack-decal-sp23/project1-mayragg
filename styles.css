@@ -1,0 +1,51 @@
+
+.info {
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    /* margin:10px; */
+  }
+
+.about {
+    float:left;
+    height: 40%;
+    width: 50%;
+    text-align: center;
+}
+
+.me-pics {
+    display: flex;
+    justify-content: center;
+}
+
+.me-pics * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-group button{
+    background-color: #b0aad3; 
+    border: 1px solid #F0EAD6; 
+    border-radius:10px;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    margin: 20px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 90%;
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:hover {
+    background-color: #927fb4;
+  }
+
+  #no-under {
+    text-decoration: none;
+  }
