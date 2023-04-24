@@ -1,3 +1,7 @@
+* {
+  font-family: Verdana, sans-serif;
+  background-color: #f4f3ef;
+}
 
 .info {
     height: 40%;
@@ -59,7 +63,7 @@ img {
       
     }
   .grid-item {
-      background-color: #D9D9D9;
+      background-color: #b0aad3;
       /* border: 1px solid rgba(0, 0, 0, 0.8); */
       border-radius: 20px;
       border:none;
@@ -68,6 +72,13 @@ img {
       text-align: center;
       margin: 10px;
     }
+
     .grid-item:hover{
-      background-color: #2196F3;
+      background-color: #927fb4;
+    }
+
+    a {
+      color: white;
+      /* background-color:#b0aad3; */
+      text-decoration: none;
     }
