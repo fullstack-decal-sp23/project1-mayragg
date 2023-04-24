@@ -49,3 +49,25 @@ img {
   #no-under {
     text-decoration: none;
   }
+
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+      /* background-color: #2196F3; */
+    /* padding: 10px; */
+      
+    }
+  .grid-item {
+      background-color: #D9D9D9;
+      /* border: 1px solid rgba(0, 0, 0, 0.8); */
+      border-radius: 20px;
+      border:none;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+      margin: 10px;
+    }
+    .grid-item:hover{
+      background-color: #2196F3;
+    }
