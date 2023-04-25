@@ -71,6 +71,8 @@ img {
       font-size: 20px;
       text-align: center;
       margin: 10px;
+      color: white;
+      /* background-color:#b0aad3; */
     }
 
     .grid-item:hover{
@@ -78,7 +80,20 @@ img {
     }
 
     a {
-      color: white;
+      /* color: white; */
       /* background-color:#b0aad3; */
       text-decoration: none;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      /* background-color: DodgerBlue; */
+    }
+    
+    .flex-container > div {
+      background-color: #927fb4;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
     }
